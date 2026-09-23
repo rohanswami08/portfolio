@@ -140,8 +140,9 @@ h3 { font-size: 1.3rem; line-height: 1.25; }
 .pill.cal { border-left: 5px solid #4285f4; }
 .arrow { font-size: 1.6rem; color: #6b665c; }
 
-.art-cp { background: #16151a; justify-items: start; }
-.art-cp pre { margin: 0; color: #d7d2c8; font-size: .82rem; line-height: 1.55; white-space: pre; overflow: hidden; }
+.code-shot { background: #1f1f1f; padding: 14px; }
+.code-shot img { object-fit: contain; object-position: center; }
+.card:hover .code-shot img { transform: scale(1.02); }
 
 /* MUSIC */
 .band { background: var(--band); color: var(--band-ink); margin-top: 88px; padding-bottom: 88px; }
